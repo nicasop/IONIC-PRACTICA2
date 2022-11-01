@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Establecimientos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item  of data">
+    <h1>{{item.name}}</h1>
+    <h3>{{item.type}}</h3>
+    <img alt="{{item.alt}}" src="{{item.img}}" />
+  
+    <ion-card-content>
+      <ion-text>
+        <h1>{{item.direction}}</h1>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

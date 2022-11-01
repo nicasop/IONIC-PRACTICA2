@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      About Us
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/logo.svg" />
+    <ion-card-header>
+      <ion-card-title>SALINERITO</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-text >
+        <h3>HISTORIA</h3>
+        <p class="ion-text-justify">El GRUPPO SALINAS (jurídicamente aprobada el 26 de noviembre del 2006) constituye una instancia corporativa que representa los intereses comunes y específicos de 
+          la población Salinera, y de las distintas instituciones miembros; es la llamada a articular procesos y apoyar iniciativas locales para fortalecer el proceso de trabajo comunitario.</p>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+        <p class="ion-text-justify">El “Gruppo Salinas” pretende asumir esta tarea de forma responsable, consensuada y técnica de manera que Salinas tenga un horizonte definido y un futuro promisorio para las nuevas 
+          generaciones, digno de ser imitado por otras poblaciones.</p>
+
+      </ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text >
+        <h3>EMPRESAS ASOCIADAS</h3>
+        <ul>
+          <li>COOPERATIVA DE AHORRO Y CRÉDITO SALINAS LTDA (COACSAL)</li>
+          <li>ASOCIACIÓN “DESARROLLO SOCIAL DE ARTESANOS TEXAL SALINAS” (TEXAL)</li>
+          <li>FUNDACION DE ORGANIZACIONES CAMPESINAS DE SALINAS (FUNORSAL)</li>
+          <li>FUNDACION GRUPO JUVENIL SALINAS</li>
+          <li>FUNDACION FAMILIA SALESIANA SALINAS (FFSS)</li>
+          <li>COOPERATIVA DE PRODUCCION AGROPECUARIA “EL SALINERITO”</li>
+        </ul>
+      </ion-text>
+    </ion-item>
+  </ion-list>
 </ion-content>
